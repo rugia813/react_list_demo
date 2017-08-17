@@ -14,7 +14,7 @@ class App extends Component {
     };
 
     //fetch list data
-    fetch('http://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AS&CaseNo2=4&FileType=1&Lang=C&FolderType=O').then(
+    fetch('https://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AS&CaseNo2=4&FileType=1&Lang=C&FolderType=O').then(
       (response) => {
         return response.json();
       }
